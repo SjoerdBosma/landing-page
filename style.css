@@ -1,6 +1,13 @@
 @font-face {
     font-family: "Roboto";
     src: url(./fonts/Roboto/Roboto-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(./fonts/Roboto/Roboto-Bold.ttf);
+    font-weight: bold;
 }
 
 body {
@@ -9,8 +16,27 @@ body {
 }
 
 .header, .hero {
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.links-header, .hero-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.header-text {
+    font-size: 24px;
+    margin: 5px;
+    color: #f9faf8;
+    font-weight: bold;
 }
 
 .header {
@@ -40,28 +66,24 @@ a {
 .hero {
     display: flex;
     background-color: #1f2937;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .hero-image {
     height: auto;
-    width: 250px;
+    width: 500px;
+    display: flex;
+    padding-left: 50px;
 }
 
-.links-header, .hero-text {
-    color: #e5e7eb;
-    font-size: 18px;
-}
-
-.header-text, .hero-main {
-    color: #f9faf8
-}
-
-.hero-main {
-    font-size: 48px;
-    font-weight: 800;
-}
-
-.header-text {
-    font-size: 24px;
-    margin: 5px;
+.sign-up {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 8px 25px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
 }
