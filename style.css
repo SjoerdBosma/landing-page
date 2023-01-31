@@ -15,9 +15,9 @@ body {
     margin: 0;
 }
 
-.header, .hero, .info, .quote-container, .action {
-    padding-left: 150px;
-    padding-right: 150px;
+.header, .hero, .info, .quote-container, .action, .footer{
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .links-header, .hero-text {
@@ -126,6 +126,7 @@ img {
 
 .info-text {
     text-align: center;
+    color: #1f2937;
 }
 
 .quote-container {
@@ -157,8 +158,8 @@ img {
 .sign-up-container {
     display: flex;
     background-color: #3882f6;
-    margin: 100px 0px;
-    padding: 50px 75px;
+    margin: 100px 50px;
+    padding: 50px 120px;
     color: #f9faf8;
     border-radius: 8px;
     justify-content:space-between;
@@ -182,4 +183,18 @@ img {
     font-weight: bold;
     border-radius: 8px;
     border-color: #f9faf8;
+}
+
+.footer {
+    background-color: #1f2937;
+}
+
+.copyright {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 30px;
 }
