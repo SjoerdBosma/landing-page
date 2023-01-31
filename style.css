@@ -11,13 +11,13 @@
 }
 
 body {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 
-.header, .hero {
-    padding-left: 130px;
-    padding-right: 130px;
+.header, .hero, .info, .quote-container, .action {
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .links-header, .hero-text {
@@ -67,7 +67,7 @@ a {
     display: flex;
     background-color: #1f2937;
     padding-top: 90px;
-    padding-bottom: 90px;
+    padding-bottom: 120px;
     justify-content: space-between;
     align-items: center;
 }
@@ -86,4 +86,100 @@ a {
     font-weight: bold;
     border-radius: 8px;
     border: none;
+}
+
+.info {
+    display: flex;
+    background-color: whitesmoke;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    padding-bottom: 114px;
+}
+
+img {
+    height: 180px;
+    width: 180px;
+}
+
+.about-me {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+.total-info {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px;
+}
+
+.info-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-text {
+    text-align: center;
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+}
+
+.quote-total {
+    display: flex;
+    padding: 100px 150px;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    margin: 0;
+}
+
+.quote-sign {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.sign-up-container {
+    display: flex;
+    background-color: #3882f6;
+    margin: 100px 0px;
+    padding: 50px 75px;
+    color: #f9faf8;
+    border-radius: 8px;
+    justify-content:space-between;
+}
+
+.action-header {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.action-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.sign-up-bottom {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 1px 32px;
+    font-weight: bold;
+    border-radius: 8px;
+    border-color: #f9faf8;
 }
